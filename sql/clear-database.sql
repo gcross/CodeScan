@@ -1,0 +1,9 @@
+DELETE FROM gauge_qubits;
+DELETE FROM logical_qubits;
+DELETE FROM qubits;
+DELETE FROM stabilizers;
+DELETE FROM operators;
+DELETE FROM hamiltonians;
+DELETE FROM codes;
+DELETE FROM graphs_completed;
+DELETE FROM graphs_being_scanned;

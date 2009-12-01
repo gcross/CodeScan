@@ -1,0 +1,33 @@
+-- @+leo-ver=4-thin
+-- @+node:gcross.20091130193227.1557:@thin CodeScan.cabal
+-- @@language Haskell
+Name:           CodeScan
+Version:        0.1
+Cabal-Version:  >= 1.2
+License:        BSD3
+License-File:   LICENSE
+Author:         Gregory Crosswhite
+Copyright:      (c) 2009 Gregory Crosswhite
+Maintainer:     gcross@phys.washington.edu
+Stability:      experimental
+Category:       Physics
+Build-Type:     Custom
+Build-Depends:  base == 4.1.*,
+                Takusen == 0.8.*,
+                array == 0.2.*,
+                time == 1.*,
+                process == 1.*,
+                syb == 0.1.*,
+                containers == 0.2.*,
+                bytestring == 0.9.*,
+                haskell98 == 1.*,
+                COrdering == 2.*,
+                random == 1.*,
+                hgal == 1.*,
+                mtl == 1.*,
+                uuid == 1.*,
+                ConfigFile == 1.*
+
+Library
+-- @-node:gcross.20091130193227.1557:@thin CodeScan.cabal
+-- @-leo
